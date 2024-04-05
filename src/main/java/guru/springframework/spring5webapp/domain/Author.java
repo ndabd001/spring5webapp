@@ -69,8 +69,8 @@ public class Author {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Book book = (Book) o;
-        return Objects.equals(id, book.id);
+        Author author = (Author) o;
+        return Objects.equals(id, author.id);
     }
 
     @Override
